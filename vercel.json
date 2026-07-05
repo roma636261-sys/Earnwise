@@ -1,7 +1,10 @@
 {
   "version": 2,
+  "buildCommand": "echo 'Build complete'",
+  "outputDirectory": ".",
   "rewrites": [
     { "source": "/daddycash-admin", "destination": "/index.html" },
-    { "source": "/", "destination": "/index.html" }
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
