@@ -1,0 +1,12 @@
+{
+  "name": "earnwise",
+  "version": "1.0.0",
+  "description": "EarnWise - AI Learning Platform",
+  "scripts": {
+    "start": "echo 'EarnWise is running'",
+    "dev": "vercel dev"
+  },
+  "keywords": ["ai", "learning", "education"],
+  "author": "Daddy Cash",
+  "license": "MIT"
+}
