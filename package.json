@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "EarnWise - AI Learning Platform",
   "scripts": {
-    "start": "echo 'EarnWise is running'",
+    "start": "echo 'EarnWise is running - static files ready'",
     "dev": "vercel dev"
   },
   "keywords": ["ai", "learning", "education"],
   "author": "Daddy Cash",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  }
 }
